@@ -1,0 +1,30 @@
+caption {
+    caption-side: top;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: linear-gradient(to top, #90d7e9 0%, #9eadcc 20%, #ba95be 80%, #7aa4ce 100%);
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+    taxt-align: center;
+
+}
+
+table td:first-child {
+    background: linear-gradient(to top left, white, lightblue);
+    font-weight: bolder;
+}
+
+table tr:first-child {
+    background: linear-gradient(to top right, white, lightblue);
+    font-weight: bolder;
+    text-align: center;
+}
