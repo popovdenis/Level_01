@@ -1,0 +1,35 @@
+table {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: linear-gradient(to top, #fefcea, #f1da36);
+}
+
+caption {
+    caption-side: top;
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    background: url("222.png") no-repeat top #fefcea;
+    background-size: 30% 130%;
+    color: darkslategrey;
+}
+
+td {
+    padding: 30px;
+    border: 2px solid darkslategray;
+    text-align: center;
+    font-size: 30px;
+    color: darkslategrey;
+    font-style: oblique;
+
+}
+
+.fon {
+    background: url("111.png") no-repeat center top #fefcea;
+    font-size: 80px;
+    vertical-align: bottom;
+    color: navajowhite;
+    font-style: inherit;
+}
